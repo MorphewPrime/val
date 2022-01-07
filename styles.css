@@ -22,9 +22,17 @@ html {
 
 #tile {
   width: 500px;
+  border-radius: 5px;
+  box-shadow:  rgb(0 0 0 / 45%) 7px 7px 10px 1px; /* rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
 }
 
 .container {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.container-main {
   position: relative;
   display: inline-block;
 }
