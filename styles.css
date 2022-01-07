@@ -20,6 +20,10 @@ html {
   background-color: black;
 }
 
+#fullpage:hover {
+  cursor: pointer;
+}
+
 #tile {
   width: 500px;
   border-radius: 5px;
@@ -107,3 +111,8 @@ html {
 		background-position: 0% 50%;
 	}
 }
+
+
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.01); cursor: pointer; }
